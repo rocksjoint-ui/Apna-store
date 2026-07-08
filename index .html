@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Store Clone</title>
+    <style>
+        body { font-family: Roboto, Arial, sans-serif; margin: 0; background-color: #fff; color: #333; }
+        .header { display: flex; align-items: center; padding: 15px; border-bottom: 1px solid #e0e0e0; }
+        .app-info { display: flex; padding: 20px; }
+        .app-icon { width: 72px; height: 72px; border-radius: 15px; margin-right: 20px; box-shadow: 0 1px 3px rgba(0,0,0,0.2); }
+        .app-title { font-size: 22px; font-weight: bold; margin-bottom: 5px; }
+        .developer { color: #01875f; font-size: 14px; font-weight: 500; }
+        .stats { display: flex; justify-content: space-around; text-align: center; padding: 15px 0; border-bottom: 1px solid #e0e0e0; }
+        .stat-val { font-size: 16px; font-weight: bold; }
+        .stat-label { font-size: 12px; color: #5f6368; }
+        .install-btn-container { padding: 15px; text-align: center; }
+        .install-btn { display: block; background-color: #01875f; color: white; text-decoration: none; padding: 12px; border-radius: 8px; font-weight: 500; font-size: 16px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.3); }
+        .install-btn:hover { background-color: #00704f; }
+        .screenshots { display: flex; overflow-x: auto; padding: 15px; gap: 10px; }
+        .screenshots img { height: 200px; border-radius: 8px; }
+        .description { padding: 20px; font-size: 14px; line-height: 1.5; color: #5f6368; }
+    </style>
+</head>
+<body>
+
+    <!-- App Identity -->
+    <div class="app-info">
+        <img class="app-icon" src="your-icon.jpg" alt="App Icon">
+        <div>
+            <div class="app-title">Apna App Name</div>
+            <div class="developer">Your Tech Studio</div>
+        </div>
+    </div>
+
+    <!-- Stats -->
+    <div class="stats">
+        <div>
+            <div class="stat-val">4.7 ★</div>
+            <div class="stat-label">12K reviews</div>
+        </div>
+        <div>
+            <div class="stat-val">500K+</div>
+            <div class="stat-label">Downloads</div>
+        </div>
+        <div>
+            <div class="stat-val">3+</div>
+            <div class="stat-label">Rated for 3+</div>
+        </div>
+    </div>
+
+    <!-- Download/Install Button -->
+    <div class="install-btn-container">
+        <!-- Yaha apni APK file ka direct download link daalein -->
+        <a href="YOUR_APK_DIRECT_DOWNLOAD_LINK" class="install-btn">Install</a>
+    </div>
+
+    <!-- Screenshots Carousel -->
+    <div class="screenshots">
+        <img src="screen1.jpg" alt="Screenshot 1">
+        <img src="screen2.jpg" alt="Screenshot 2">
+        <img src="screen3.jpg" alt="Screenshot 3">
+    </div>
+
+    <!-- About App -->
+    <div class="description">
+        <h3>About this app</h3>
+        <p>Yaha aap apne app ke baare me poora details daal sakte hain jo users ko read karne ko milega...</p>
+    </div>
+
+</body>
+</html>
